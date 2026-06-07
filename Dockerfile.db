@@ -1,0 +1,7 @@
+FROM mariadb:11.2
+
+# Default database name
+ENV MARIADB_DATABASE=eyedrop
+
+# Expose MariaDB default port
+EXPOSE 3306
